@@ -1,0 +1,97 @@
+En la tabla \ref{table:2} % No cabian todos los datos
+
+
+\setcounter{table}{1}
+\begin{table}[H] % Coloca la tabla exactamente donde está en el código
+    \centering % Centra la tabla
+    \tiny % Reduce el tamaño de la fuente de la tabla
+    \begin{tabular}{ccc} % Define tres columnas centradas
+        \toprule % Línea horizontal superior
+        Altitud (msnm) & Neutrones & Protones \\ % Cabeceras de las columnas
+        \midrule % Línea horizontal media
+        7 & 237945 & 38964 \\ % Primera fila de datos
+        \midrule % Línea horizontal media
+        108 & 257486 & 42976 \\ % fila 2 de datos
+        \midrule % Línea horizontal media
+        199 & 274748 & 45946 \\ % fila 3 de datos
+        \midrule % Línea horizontal media
+        303 & 290636 & 49437 \\ % fila 4 de datos
+        \midrule % Línea horizontal media
+        401.5 & 312755 & 53498 \\ % fila 5 de datos
+        \midrule % Línea horizontal media
+        518.5 & 340200 & 59095 \\ % fila 6 de datos
+        \midrule % Línea horizontal media
+        826.5 & 425683 & 76436 \\ % fila 7 de datos  
+	    \midrule % Línea horizontal media
+        870 & 433084 & 78328 \\ % fila 8 de datos    
+        \midrule % Línea horizontal media
+        897 & 450681 & 81293 \\ % fila 9 de datos -- hasta aqui va revisada                          
+        \midrule % Línea horizontal media
+        1068.5 & 499380 & 91885 \\ % fila 10 de datos
+        \midrule % Línea horizontal media
+        1208.5 & 541492 & 100606 \\ % fila 11 de datos
+        \midrule % Línea horizontal media
+        1258 & 551189 & 103290 \\ % fila 12 de datos
+        \midrule % Línea horizontal media
+        1289.5 & 577985 & 108792 \\ % fila 13 de datos
+        \midrule % Línea horizontal media
+        1303 & 580666 & 109013 \\ % fila 14 de datos  
+	    \midrule % Línea horizontal media
+        1411 & 612758 & 117626 \\ % fila 15 de datos    
+        \midrule % Línea horizontal media
+        1642 & 707765 & 138624 \\ % fila 16 de datos                          
+        \midrule % Línea horizontal media
+        1851.5 & 794434 & 158991 \\ % fila 17 de datos -- hasta aqui va revisada  
+        \midrule % Línea horizontal media
+        2022.5 & 874547 & 177291 \\ % fila 18 de datos
+        \midrule % Línea horizontal media
+        2256.5 & 979960 & 204250 \\ % fila 19 de datos
+        \midrule % Línea horizontal media
+        2260 & 984658 & 206348 \\ % fila 20 de datos
+        \midrule % Línea horizontal media
+        2260.5 & 992678 & 206458 \\ % fila 21 de datos  
+	    \midrule % Línea horizontal media
+        2538 & 1163617 & 248814 \\ % fila 22 de datos    
+        \midrule % Línea horizontal media
+        2672.5 & 1231362 & 268648 \\ % fila 23 de datos                          
+        \midrule % Línea horizontal media
+        2715 & 1264336 & 275879 \\ % fila 24 de datos
+        \midrule % Línea horizontal media
+        2845.5 & 1359126 & 300070 \\ % fila 25 de datos -- hasta aqui va revisada  
+        \midrule % Línea horizontal media
+        3036.5 & 1496961 & 336756 \\ % fila 26 de datos
+        \midrule % Línea horizontal media
+        3233 & 1633558 & 374760 \\ % fila 27 de datos
+        \midrule % Línea horizontal media
+        3408.5 & 1778536 & 416441 \\ % fila 28 de datos  
+	    \midrule % Línea horizontal media
+        3426 & 1790978 & 418835 \\ % fila 29 de datos    
+        \midrule % Línea horizontal media
+        3509 & 1847876 & 436871 \\ % fila 30 de datos                          
+        \midrule % Línea horizontal media
+        3610 & 1935692 & 463088 \\ % fila 31 de datos
+        \midrule % Línea horizontal media
+        3734.5 & 2053883 & 497257 \\ % fila 32 de datos
+        \midrule % Línea horizontal media
+        3812 & 2125462 & 519269 \\ % fila 33 de datos -- hasta aqui va revisada  
+        \midrule % Línea horizontal media
+        4108 & 2387688 & 599663 \\ % fila n de datos
+        \midrule % Línea horizontal media
+        4113 & 2395117 & 602097 \\ % fila n de datos  
+	    \midrule % Línea horizontal media
+        4209 & 2487520 & 631546 \\ % fila n de datos    
+        \midrule % Línea horizontal media
+        4290.5 & 2570422 & 658890 \\ % fila n de datos                          
+        \midrule % Línea horizontal media
+        4395.5 & 2674167 & 690797 \\ % fila n de datos
+        \midrule % Línea horizontal media
+        4492 & 2776633 & 725149 \\ % fila n de datos
+        \midrule % Línea horizontal media
+        4539 & 2828116 & 741552 \\ % fila n de datos
+        \midrule % Línea horizontal media
+        4582.5 & 2878449 & 758788 \\ % fila n de datos       
+        \bottomrule % Línea horizontal inferior
+    \end{tabular}
+    \caption{Tabla de altitud, número de neutrones y número de protones} % Añade un caption
+    \label{table:2} % Añade un label para referencias
+\end{table}
