@@ -1,0 +1,118 @@
+\documentclass[13pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc} 
+\usepackage{caption} 
+\usepackage[spanish]{babel} 
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz}
+\usepackage{svg}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amssymb} 
+\usepackage{lipsum} % texto predeterminado
+\usepackage{ragged2e} % para justificar texto
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\addbibresource{Referencias.bib}
+\AtBeginBibliography{\small}
+
+\usepackage{svrsymbols} % para poner particulas como electrones, mesones, etc
+\usepackage{mhchem} % poner compuestos quimicos e isotopos
+\usepackage{chemfig}
+
+\usepackage{siunitx}
+
+% \captionsetup{labelformat=empty} % para quitar el caption.
+
+% Muestra el número de la diapositiva
+\setbeamertemplate{footline}[frame number]
+
+%---- Definimos colores -----
+\usepackage{xcolor}    % Necesario para definir colores personalizados en RGB
+\usepackage{tcolorbox} % Necesario para crear cuadros con bordes redondeados
+\definecolor{azul}{rgb}{0.17, 0.40, 0.69} % color que quiero en rgb
+\setbeamercolor{structure}{fg=azul} % lo definimos para todo el beamer
+
+% Define los colores del bloque
+\definecolor{custombgcolor2}{RGB}{201, 123, 219} % Color de fondo
+\definecolor{custombgcolor3}{RGB}{231, 185, 104} % Color de fondo
+\definecolor{custombgcolor4}{RGB}{91, 185, 178} % Color de fondo
+\definecolor{custombgcolor5}{RGB}{228, 220, 88} % Color de fondo
+\definecolor{custombgcolor6}{RGB}{78, 157, 116} % Color de fondo
+\definecolor{custombgcolor7}{RGB}{81, 183, 224} % Color de fondo
+\definecolor{custombgcolor8}{RGB}{150, 161, 166} % Color de fondo
+\definecolor{custombgcolor9}{RGB}{69, 247, 146} % Color de fondo
+
+\definecolor{customfgcolor1}{RGB}{255, 255, 255} % Color del texto
+\definecolor{customfgcolor2}{RGB}{0, 0, 0} % Color del texto
+
+\usetheme{Rochester} % tema para usar en este slide
+
+%--------------- Para que se ponga la lista de contenido mas interesante
+\AtBeginSection[]
+{
+    \begin{frame}<beamer>{Contenido}
+        \tableofcontents[currentsection, currentsubsection]
+    \end{frame}
+}
+\AtBeginSubsection[]
+{
+    \begin{frame}<beamer>{Contenido}
+        \tableofcontents[currentsection, currentsubsection]
+    \end{frame}
+}
+
+%-------------------------- Quitar el menu de la lateral inferior izquierda
+\setbeamertemplate{navigation symbols}{}
+
+%--------------------------------------------
+
+\title{\Large Estudio de la variación con la altura del flujo atmosférico de protones y neutrones secundarios producidos por rayos cósmicos}
+\author{Presenta: Mata \\ 
+    \scriptsize Director de tesis: Dr. Oscar Gustavo Morales Olivares}
+\institute{
+    \inst{
+        \footnotesize Universidad Nacional Autónoma de México 
+    }
+    \inst{
+        \footnotesize Facultad de Ciencias
+    }
+}
+\date{\scriptsize x de octubre de 2024}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \begin{minipage}[t]{0.1\linewidth}
+        \includegraphics[width=2cm]{Figures/unam.pdf}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.1\linewidth}
+        \includegraphics[width=2cm]{Figures/ciencias.pdf}
+    \end{minipage}
+    \vspace{2cm}
+    \titlepage
+\end{frame}
+
+
+%--------------------------------------------
+
+    %\begin{frame} % cada entorno frame es una diapositiva
+        %\maketitle
+    %\end{frame}
+    
+    \begin{frame}{Contenido} % cada entorno frame es una diapositiva
+        \tableofcontents
+    \end{frame}
+    
+	%----------- SLIDES -------------
+	\include{Introduccion}
+    \include{Objetivos}
+	\include{Metodologia}
+	\include{Resultados}
+	\include{Conclusiones}
+    \include{Referencias}
+	\include{Agradecimiento}
+	\include{Extra}
+	%--------------------------------
+
+\end{document}

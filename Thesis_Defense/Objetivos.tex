@@ -1,0 +1,35 @@
+%---------------------------------------------------------------------  
+    \section{Objetivos}
+    %------------------------------ SLIDE ---------------------------------------
+    % Cambia el símbolo del itemize a un triángulo negro
+    \setbeamertemplate{itemize item}{\raisebox{0.2ex}{\scriptsize$\blacktriangleright$}}
+    \setbeamercolor{itemize item}{fg=red} % Cambia el color del triángulo a naranja 
+    \begin{frame}{Objetivos} % cada entorno frame es una diapositiva
+        \justifying % para justificar el texto, siempre al inicio de cada frame
+        
+        % Añade espacio para mover el bloque hacia arriba
+        \vspace*{-1.5cm} % Ajusta este valor según sea necesario
+    
+        \begin{tcolorbox}[colback=custombgcolor3, coltext=customfgcolor2,
+                      colframe=custombgcolor3, % Color del borde
+                      width=\textwidth,       % Ancho del cuadro
+                      arc=8pt,                % Radio de redondeo de las esquinas
+                      boxrule=0pt,            % Grosor del borde
+                      top=1mm, bottom=1mm,    % Espacio superior e inferior
+                      enlarge bottom by=3mm   % Aumenta el margen inferior
+                      ]
+            % Texto dentro del cuadro
+            Determinar cómo cambia el flujo de protones y neutrones secundarios producidos por rayos cósmicos, desde la cima del volcán Sierra Negra hasta el nivel del mar, en el puerto de Veracruz, mediante simulaciones con \textbf{CORSIKA}.
+        \end{tcolorbox}
+
+        \begin{columns}
+            \begin{column}{1.0\textwidth} % Columna izquierda para la lista
+                \begin{itemize}
+                    \item \textcolor{blue}{\textbf{Objetivo particular 1:}} Comparar el flujo de partículas secundarias con el flujo obtenido con el Mini Monitor de Neutrones portátil. 
+                    \item \textcolor{blue}{\textbf{Objetivo particular 2:}} Obtener el espectro de partículas secundarias a nivel de Sierra Negra.
+                \end{itemize}
+            \end{column}
+        \end{columns}         
+    \end{frame} 
+
+
