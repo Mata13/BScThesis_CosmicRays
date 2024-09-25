@@ -24,6 +24,9 @@ Thesis Defense Slides: The /slides folder contains the LaTeX Beamer presentation
 > [!IMPORTANT]
 This repository only contains the processed data and analysis scripts. Raw simulation data obtained from CORSIKA runs is not included.
 
+## License
+This project is licensed under the MIT License. See the [MIT License](LICENSE.txt) file for more details.
+
 ## Contact
 
 For any questions or collaboration opportunities, feel free to contact me at [marc.dev121@gmail.com](mailto:marc.dev121@gmail.com).
